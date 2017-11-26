@@ -7,3 +7,8 @@ spring:
       server:
         git:
           uri: https://github.com/staleks/config-server-properties
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
