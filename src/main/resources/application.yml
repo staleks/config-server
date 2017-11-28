@@ -8,6 +8,10 @@ spring:
         git:
           uri: https://github.com/staleks/config-server-properties
 
+management:
+  security:
+    enabled: false
+
 eureka:
   client:
     serviceUrl:
